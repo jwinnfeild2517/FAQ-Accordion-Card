@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link href="./mobile.css" rel="stylesheet" />
+    <!-- <link href="./index.css" rel="stylesheet" /> -->
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link src="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <img class="image box" src="./images/illustration-box-desktop.svg" />
+        <div class="woman">
+          <picture>
+            <source
+              media="(max-width: 950px)"
+              srcset="./images/illustration-woman-online-mobile.svg"
+            />
+            <img
+              class="image"
+              src="./images/illustration-woman-online-desktop.svg"
+            />
+          </picture>
+        </div>
+        <div class="list">
+          <h1>FAQ</h1>
+          <ul>
+            <li class="question">
+              <div class="question-text">
+                <p>How many teeth do sharks have on average?</p>
+                <p id="0">
+                  Most sharks have 5 rows of teeth, and can have as many as 3000
+                  teeth at once!
+                </p>
+              </div>
+              <div class="question-arrow">
+                <img class="arrow-img" src="./images/icon-arrow-down.svg" />
+              </div>
+            </li>
+
+            <li class="question">
+              <div class="question-text">
+                <p>When do baby giraffes begin to walk</p>
+                <p id="1">
+                  Baby giraffes can stand within half an hour of birth.
+                </p>
+              </div>
+              <div class="question-arrow">
+                <img class="arrow-img" src="./images/icon-arrow-down.svg" />
+              </div>
+            </li>
+
+            <li class="question">
+              <div class="question-text">
+                <p>What is the gender cycle of all clownsish?</p>
+                <p id="2">
+                  All clownfish are born male, and will only change sex to
+                  become a dominant female.
+                </p>
+              </div>
+              <div class="question-arrow">
+                <img class="arrow-img" src="./images/icon-arrow-down.svg" />
+              </div>
+            </li>
+
+            <li class="question">
+              <div class="question-text">
+                <p>What body part do butterflies use to taste?</p>
+                <p id="3">Butterflies taste with their feet.</p>
+              </div>
+              <div class="question-arrow">
+                <img class="arrow-img" src="./images/icon-arrow-down.svg" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Jenner Thomas</a>.
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

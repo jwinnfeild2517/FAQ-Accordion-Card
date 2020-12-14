@@ -1,0 +1,61 @@
+/* Tablet */
+
+/* @media only screen and (max-width: 950px)  {
+
+} */
+
+@import "./index.css";
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10em 1em 1em 1em;
+    display: block;
+    text-align: center;
+  }
+
+  .list {
+    margin: 9em 0 0 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    padding: 0;
+    margin: 2em 0 10em 0;
+    position: relative;
+  }
+
+  div.woman {
+    margin: auto;
+    margin-top: -11em;
+    position: absolute;
+    overflow: none;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+
+  ul {
+    padding: 0 1.5em 0 1.5em;
+  }
+
+  img.box {
+    display: none;
+  }
+
+  .question-arrow {
+    margin-left: 10px;
+  }
+
+  .woman img {
+    margin: auto;
+  }
+
+  .image {
+    margin: auto;
+  }
+}
