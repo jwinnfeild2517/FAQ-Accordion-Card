@@ -30,6 +30,10 @@ If you would like the Sketch file in order to inspect the design in more detail 
 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
+
+![image](https://user-images.githubusercontent.com/46112853/125680477-b257bd5d-33ac-4b34-ad0d-9adfa828c665.png)
+
+
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
 
